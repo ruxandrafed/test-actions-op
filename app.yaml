@@ -1,4 +1,6 @@
-runtime: nodejs10
+service: hello
+env: flex
+runtime: nodejs
 manual_scaling:
   instances: 2
 resources:
