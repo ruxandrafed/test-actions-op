@@ -2,7 +2,7 @@ service: hello
 env: flex
 runtime: nodejs
 manual_scaling:
-  instances: 2
+  instances: 1
 resources:
   cpu: 1
   memory_gb: 0.5
